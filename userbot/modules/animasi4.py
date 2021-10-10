@@ -365,6 +365,22 @@ async def typewriter(typew):
     await typew.edit("`MAKANYA KALO HIDUP HARUS GANTENG KONTOOOLL`")
 # Create by myself @localheart
 
+@register(outgoing=True, pattern='^.skyzo(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`Skyzo?`")
+    sleep(1)
+    await typew.edit("`This My Owner Bot`")
+    sleep(1)
+    await typew.edit("`Dan Restu? Haha`")
+    sleep(1)
+    await typew.edit("`This My User`")
+    sleep(1)
+    await typew.edit("`So Jangan Lupa Subs Channel Telegram Mereka`")
+    sleep(1)
+    await typew.edit("`Yaitu @SadRoomsInfo`")
+# Create by myself @localheart
+
 
 @register(outgoing=True, pattern="^.mf$")
 async def koc(e):
