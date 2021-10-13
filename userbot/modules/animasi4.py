@@ -33,6 +33,34 @@ async def koc(e):
         await e.edit("💘💕💞💝")
         await e.edit("SAYANG KAMU💞")
 
+@register(outgoing=True, pattern="^.yss$")
+async def koc(e):
+    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+        await e.edit("Adu Pasif Sini Suhu")
+        await e.edit("🏹")
+        await e.edit("🗡️")
+        await e.edit("🏹")
+        await e.edit("🗡️")
+        await e.edit("🏹")
+        await e.edit("🗡️")
+        await e.edit("🏹")
+        await e.edit("🗡️")
+        await e.edit("🏹")
+        await e.edit("🗡️")
+        await e.edit("🏹")
+        await e.edit("🗡️")
+        await e.edit("🏹")
+        await e.edit("🗡️")
+        await e.edit("🏹")
+        await e.edit("🗡️")
+        await e.edit("🏹")
+        await e.edit("🗡️")
+        await e.edit("**Cupu Lu Kek Restu** 🤢")
+        await e.edit("🏹")
+        await e.edit("🗡️")
+        await e.edit("🏹")
+        await e.edit("🗡️")
+
 
 @register(outgoing=True, pattern='^.dino(?: |$)(.*)')
 async def typewriter(typew):
